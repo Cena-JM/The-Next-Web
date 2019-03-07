@@ -1,0 +1,67 @@
+h1 {
+	font: 700 6em/3 sans-serif;
+}
+
+.flex-display{
+	display: flex;
+}
+
+
+/*head styles*/
+
+.nav {
+
+}
+.nav-topbar {
+	background: #131313;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    max-height: 32px;
+    position: relative;
+    /*z-index: 2;*/
+    color: #fff;
+}
+.nav-mob {
+	box-shadow: 0 16px 48px rgba(0,0,0,.15);
+    line-height: 30px;
+    background: #fd3;
+}
+
+/*section styles*/
+#cover {
+	height: 75vh;
+    max-height: 560px;
+    background: #ff0000;
+    color: #fff;
+}
+.tnw {
+	background: transparent url(../images/tnw.svg) no-repeat;
+    background-size: contain;
+    left: 24px;
+    max-width: 50%;
+    height: 100%;
+    max-height: 112px;
+    line-height: 1;
+    position: absolute;
+    top: 24px;
+    pointer-events: none;
+    text-align: right;
+}
+.section-date {
+	float: right;
+	margin: 15px 30px;
+}
+.section-content {
+	width: 95%;
+	margin: 0 auto;
+}
+.content-head {
+	font-size: 0.8em;
+}
+.content-body {
+	font: 700 1.5em/1.5 serif;
+}
+.content-caption {
+	font-size: ;
+}
