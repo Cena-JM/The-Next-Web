@@ -11,7 +11,7 @@ h1 {
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*head styles*/
@@ -54,42 +54,49 @@ body{
 }
 #cover-gradient2 {
 
-	width: 100%;
-	min-height: 430px;
+	width: 100vw;
+	height: 430px;
 	background: transparent url(../images/cover-gradient.png) no-repeat;
     background-position: 0 0;
     background-size: cover;
     mix-blend-mode: lighten;
+    display: table-cell;
+    vertical-align: bottom;
 }
 .tnw {
 	background: transparent url(../images/tnw.svg) no-repeat;
     background-size: contain;
-    left: 24px;
-    max-width: 50%;
+    width: 50%;
     height: 100%;
     max-height: 112px;
     line-height: 1;
     position: absolute;
-    top: 24px;
+    top: 100px;
+    left: 24px;
     pointer-events: none;
     text-align: right;
 }
 .section-date {
-	float: right;
-	margin: 15px 30px;
+	position: relative;
+    bottom: 280px;
+    left: 85%;
 }
 .section-content {
 	width: 95%;
 	margin: 0 auto;
 }
 .content-head {
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 .content-body {
-	font: 700 1.5em/1.5 serif;
+	font-size: 2em;
+	line-height: 2;
+	font-weight: 1000;
 }
 .content-caption {
-	font-size: ;
+	font-size: 0.7em;
+	color: #f4f4f4;
+	margin: 0 0 20px 0;
 }
 
 /* wrapper section */
