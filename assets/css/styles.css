@@ -1,11 +1,18 @@
 h1 {
-	font: 700 6em/3 sans-serif;
+	font: 700 6em/3 helvetica, sans-serif;
 }
 
 .flex-display{
 	display: flex;
 }
 
+.column{
+    flex-direction: column;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /*head styles*/
 
@@ -34,6 +41,7 @@ h1 {
     max-height: 560px;
     background: #ff0000;
     color: #fff;
+    margin-bottom: 70px;
 }
 .tnw {
 	background: transparent url(../images/tnw.svg) no-repeat;
@@ -64,4 +72,226 @@ h1 {
 }
 .content-caption {
 	font-size: ;
+}
+
+/* wrapper section */
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1150px;
+    padding: 0 30px;
+}
+
+#latest-news{
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.latest-head{
+    width: 100%;
+}
+
+.latest-article{
+    width: 23%;
+    min-width: 23%;
+    height: auto;
+    margin: 6px;
+}
+
+.latest-article div[id^="art"]{
+    width: auto;
+    height: 130px;
+}
+
+.latest-article h2 {
+    font: bold 1em/1.5 helvetica, sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.latest-article h3{
+    font-size: .7em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AAAAAA;
+    font-weight: normal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+}
+
+.latest-head{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font: bold 2em/1.5 helvetica, sans-serif;
+    font-weight: bold;
+    color: #FF4422;
+}
+
+#art-img1{
+    background: url(../images/latest-1.png) no-repeat;
+    background-size: 100% auto;
+}
+
+#art-img2{
+    background: url(../images/latest-2.jpeg) no-repeat;
+    background-size: 100% auto;
+}
+
+#art-img3{
+    background: url(../images/latest-3.jpeg) no-repeat;
+    background-size: 100% auto;
+}
+
+#art-img4{
+    background: url(../images/latest-4.jpeg) no-repeat;
+    background-size: 100% auto;
+}
+#art-img5{
+    background: url(../images/latest-5.jpeg) no-repeat;
+    background-size: 100% auto;
+}
+
+#art-img6{
+    background: url(../images/latest-6.jpeg) no-repeat;
+    background-size: 100% auto;
+}
+#art-img7{
+    background: url(../images/latest-7.png) no-repeat;
+    background-size: 100% auto;
+}
+#art-img8{
+    background: url(../images/latest-8.png) no-repeat;
+    background-size: 100% auto;
+}
+
+/* latest funding section */
+
+#latest-funding{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+
+.funding-head{
+    width: 60%;
+    font-weight: bold;
+    color: #FF4422;
+    font-size: 1.5em;
+}
+
+.deals-more{
+    width: 35%;
+    text-align: end;
+}
+
+.deals-more a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #FF4422;
+    text-transform: capitalize;
+    font-size: 1em;
+}
+
+.deals-more a:hover{
+    color: #000000;
+}
+
+.mid-deal{
+    border-left: 1px solid #FF4422;
+    border-right:  1px solid #FF4422;
+    padding: 0 10px;
+    font-size: 1em;
+}
+
+.fund{
+    width: 23%;
+    min-width: 228px;
+    margin-top: 40px;
+}
+
+.fund-img{
+    width: 60px;
+    height: 60px;
+    margin: 10px 10px;
+    float: left;
+}
+
+#fund-1{
+    background: url(../images/funding-1.jpeg);
+    background-size: cover;
+}
+
+#fund-2{
+    background: url(../images/funding-2.jpg);
+    background-size: cover;
+}
+
+#fund-3{
+    background: url(../images/funding-3.png);
+    background-size: cover;
+}
+#fund-4{
+    background: url(../images/funding-4.jpg);
+    background-size: cover;
+}
+
+.ft1{
+    background: red;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+
+.ft2{
+    background: rgba(255, 68, 34, .25);
+    color: black;
+    line-height: 58px;
+    height: 58px;
+}
+
+.funding-text{
+    width: auto;
+    font-weight: bolder;
+    padding-left: 84px;
+    font-size: 1em;
+}
+
+.ft-mid{
+    background: rgba(255, 68, 34, .08);
+    padding-top: 16px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.ft-mid i{
+    color: black;
+}
+
+.ft-mid-top, .ft-mid-bottom, .ft-end{
+    padding-left: 10px;
+    line-height: .8em;
+}
+
+.fund h4{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-size: .8em;
+    color: gray;
+    font-weight: lighter;
+}
+
+.ft-bottom{
+    border-top: .5px solid rgba(255, 68, 34, .25);
+    width: 100%;
+    background: rgba(255, 68, 34, .08);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
