@@ -65,6 +65,7 @@ body{
 }
 
 /*section styles*/
+
 #cover {
 	min-height: 490px;
     max-height: 560px;
@@ -120,9 +121,8 @@ body{
 }
 .content-body {
 	font-size: 2em;
-	line-height: 1.2;
+	line-height: 2;
 	font-weight: 1000;
-	margin: 30px 0;
 }
 .content-caption {
 	font-size: 0.7em;
@@ -134,8 +134,7 @@ body{
 
 .wrapper{
     margin: 0 auto;
-    max-width: 1150px;
-    padding: 0 30px;
+    max-width: 1192px;
 }
 
 #latest-news{
@@ -537,6 +536,8 @@ body{
     content: "● ";
     color: red;
 }
+
+
 /* deals styles */
 .offer-size {
 	width: auto;
