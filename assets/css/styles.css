@@ -343,6 +343,196 @@ body{
     padding-bottom: 10px;
 }
 
+/* Popular section */
+
+#popular-section{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.popular-box{
+    width: 32%;
+    min-width: 312px;
+    margin: 2em .5%;
+    height: auto;
+
+}
+
+.box-head{
+    font-weight: bold;
+    color: #FF4422;
+    font-size: 1.5em;
+
+}
+
+.pop-img1{
+    width: 100%;
+    height: 276px;
+    min-width: 230px;
+    margin-bottom: 2px;
+}
+
+.pop-img1-text{
+    color: white;
+    align-self: flex-end;
+    margin: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.pop-img2{
+    width: 100%;
+    height: 96px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgba(255, 68, 34, .08);
+}
+
+#p-img1{
+    background: url(../images/latest-9.png) no-repeat center center;
+    background-size: cover;
+}
+
+#p-img2{
+    background: url(../images/latest-3.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#p-img3{
+    background: url(../images/latest-4.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#p-img4{
+    background: url(../images/latest-2.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#p-img5{
+    background: url(../images/latest-5.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#p-img6{
+    background: url(../images/latest-8.png) no-repeat center center;
+    background-size: cover;
+}
+
+#p-img7{
+    background: url(../images/latest-7.png) no-repeat center center;
+    background-size: cover;
+}
+
+#p-img8{
+    background: url(../images/latest-6.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#p-img9{
+    background: url(../images/latest-1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.pop-img2-square{
+    width: 96px;
+    height: 96px;
+    align-self: flex-end;
+}
+
+.pop-title1{
+    width: calc(100% - 110px);
+    color: red;
+    font-size: 1em;
+    line-height: 96px;
+    margin: 0 0 0 15px;
+}
+
+#sq1{
+    background: url(../images/pop-9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sq2{
+    background: url(../images/pop-8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sq3{
+    background: url(../images/pop-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sq4{
+    background: url(../images/pop-6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sq5{
+    background: url(../images/pop-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sq6{
+    background: url(../images/pop-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sq7{
+    background: url(../images/pop-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sq8{
+    background: url(../images/pop-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sq9{
+    background: url(../images/pop-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.pop-list ul{
+    list-style-type: none;
+    padding: 0 0;
+}
+
+.pop-list ul li{
+    font-size: .85em;
+    margin: 15px 0;
+    padding-bottom: 15px;
+    border-bottom: .5px solid rgb(226, 226, 226);
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.pop-list ul li::before {
+    content: "● ";
+    color: red;
+}
+
+
+
+
+
 /* footer styles */
 .footer{
     color: #878787;
@@ -387,8 +577,6 @@ body{
 .footer-links li{
     padding: 5px;
 }
-
-
 
 .footer-legal{
     background: black;
