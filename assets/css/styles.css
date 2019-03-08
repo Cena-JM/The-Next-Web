@@ -528,10 +528,52 @@ body{
     content: "● ";
     color: red;
 }
-
-
-
-
+/* deals styles */
+.offer-size {
+	width: auto;
+	height: 200px;
+	background: #ff0000;
+}
+.strike {
+	font-size: 0.8em;
+	color: #919191;
+	margin: 0 10px 0 0;
+}
+.offer {
+	color: #505050;
+}
+#offer-img1 {
+	background: url(../images/offer1.jpg);
+	background-size: 100% auto;
+}
+#offer-img2 {
+	background: url(../images/offer2.jpg);
+	background-size: 100% auto;
+}
+#offer-img3 {
+	background: url(../images/offer3.jpg);
+	background-size: 100% auto;
+}
+#offer-img4 {
+	background: url(../images/offer4.jpg);
+	background-size: 100% auto;
+}
+#offer-img5 {
+	background: url(../images/offer5.jpg);
+	background-size: 100% auto;
+}
+#offer-img6 {
+	background: url(../images/offer6.jpg);
+	background-size: 100% auto;
+}
+#offer-img7 {
+	background: url(../images/offer7.jpg);
+	background-size: 100% auto;
+}
+#offer-img8 {
+	background: url(../images/offer8.jpg);
+	background-size: 100% auto;
+}
 
 /* footer styles */
 .footer{
