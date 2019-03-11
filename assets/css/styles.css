@@ -85,6 +85,11 @@ body{
     background-size: 100% 220%;
     background-position: center;
 }
+
+.hidden-head{
+    display: none;
+}
+
 #cover-gradient1 {
 
 	width: 100%;
@@ -147,12 +152,13 @@ body{
     max-width: 1192px;
 }
 
-#latest-news{
+#latest-news, .latest-news{
     flex-flow: row wrap;
     width: 100%;
     height: auto;
     justify-content: space-between;
 }
+
 
 .latest-head{
     width: 100%;
@@ -236,6 +242,10 @@ body{
     background-size: 100% auto;
 }
 
+#art-img9{
+    background: url(../images/latest-8.png) no-repeat;
+    background-size: 100% auto;
+}
 /* latest funding section */
 
 #latest-funding{
@@ -386,7 +396,7 @@ body{
     font-weight: bold;
     color: #FF4422;
     font-size: 1.5em;
-
+    margin-bottom: 20px;
 }
 
 .pop-img1{
@@ -565,7 +575,8 @@ body{
 .strike {
 	font-size: 0.8em;
 	color: #919191;
-	margin: 0 10px 0 0;
+    margin: 0 10px 0 0;
+    text-decoration: line-through;
 }
 .offer {
 	color: #505050;
@@ -599,6 +610,11 @@ body{
 	background-size: 100% auto;
 }
 #offer-img8 {
+	background: url(../images/offer8.jpg) no-repeat;
+	background-size: 100% auto;
+}
+
+#offer-img9 {
 	background: url(../images/offer8.jpg) no-repeat;
 	background-size: 100% auto;
 }

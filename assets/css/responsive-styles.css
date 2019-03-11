@@ -25,6 +25,7 @@
 
 	.fund{ width: 100%; margin-top: 20px; }
 	#latest-funding{ margin: 0 .5vw; }
+	.deals-more{display: none}
 
 /* popular-section */
 
@@ -116,8 +117,5 @@
 	#bar { display: none; }
 	.section-date { bottom: 310px; }
 	.hidden{ display: none; }
-
-
-
 }
 
