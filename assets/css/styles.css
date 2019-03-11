@@ -17,6 +17,16 @@ body{
 
 /*head styles*/
 
+#nav-logo {
+	position: absolute;
+    top: 0px; left: 0;
+    width: 80px;
+    padding: 16px 20px;
+    background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    z-index: 1;
+}
+
 .nav-topbar {
 	background: #131313;
     font-size: 13px;
@@ -33,6 +43,7 @@ body{
 }
 .nav-bar {
 	padding-left: 10px;
+	margin: 0 220px 0 0;
 }
 .nav-bar li{
     font-weight: 500;
@@ -53,11 +64,20 @@ body{
     font-size: 0.9em;
 }
 
+#bar{
+	padding: 15px 20px;
+	font-size: 1.4em;
+	color: #FF4422;
+}
+#search-bar{
+	padding: 15px 20px;
+	color: #b2b2b2;
+	border-left: 1px solid #b2b2b2;
+}
 /*section styles*/
 
 #cover {
-	min-height: 490px;
-    max-height: 560px;
+	height: 490px;
     background: #ff0000;
     color: #fff;
     margin-bottom: 70px;
@@ -68,19 +88,18 @@ body{
 #cover-gradient1 {
 
 	width: 100%;
-	min-height: 490px;
+	height: 490px;
 	background: linear-gradient(to bottom, rgba(0,0,0,.2), #000);
 }
 #cover-gradient2 {
 
-	width: 100vw;
+	width: 100%;
 	height: 490px;
 	background: transparent url(../images/cover-gradient.png) no-repeat;
     background-position: 0 0;
     background-size: cover;
     mix-blend-mode: lighten;
-    display: table-cell;
-    vertical-align: bottom;
+    justify-content: flex-end;
 }
 .tnw {
 	background: transparent url(../images/tnw.svg) no-repeat;
@@ -99,7 +118,8 @@ body{
 	position: relative;
     bottom: 340px;
     font-weight: 600;
-    left: 85%;
+    text-align: right;
+    margin: 0 20px;
 }
 .section-content {
 	width: 96%;
@@ -110,8 +130,9 @@ body{
 }
 .content-body {
 	font-size: 2em;
-	line-height: 2;
+	line-height: 1.2;
 	font-weight: 1000;
+	margin: 15px 0;
 }
 .content-caption {
 	font-size: 0.7em;
@@ -391,7 +412,7 @@ body{
 }
 
 #p-img1{
-    background: url(../images/latest-9.png) no-repeat center center;
+    background: url(../images/latest-9.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -634,6 +655,7 @@ body{
     padding: 39px 0 39px 0;
     margin-left: auto;
     margin-right: auto;
+    font-size: 0.8em;
 }
 
 .footer-menu a{
